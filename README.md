@@ -1,4 +1,4 @@
-# test-repo
+# Git Basics
 Test repo to relearn and practice the basics of version control with Git
 
 ## Basics
@@ -16,8 +16,7 @@ Test repo to relearn and practice the basics of version control with Git
 ## Branching and merging
 * `git branch`: shows branches
 * `git branch <name>`: creates a branch
-* `git checkout -b <name>`: creates a branch and switches to it (same as `git branch <name>; git checkout <name>`
-* )
+* `git checkout -b <name>`: creates a branch and switches to it (same as `git branch <name>; git checkout <name>`)
 * `git merge <revision>`: merges into current branch
 * `git mergetool`: use a fancy tool to help resolve merge conflicts
 * `git rebase`: rebase set of patches onto a new base
