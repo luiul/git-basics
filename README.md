@@ -32,7 +32,7 @@ Test repo to relearn and practice the basics of version control with Git
 * `git pull`: same as git fetch; git merge
 * `git clone`: download repository from remote
 
-
+<img src="./setup.png" width="800" alt="Remote setup" class="center">
 
 ## Undo
 * `git commit --amend`: edit a commit’s contents/message
