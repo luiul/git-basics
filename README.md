@@ -58,12 +58,6 @@ Test repo to relearn and practice the basics of version control with Git
 
 [Lecture 6: Version Control (git) (2020)](https://www.youtube.com/watch?v=2sjqTHE0zok)
 
-[How to ignore certain files in Git](https://stackoverflow.com/questions/4308610/how-to-ignore-certain-files-in-git)
-
-[How can I create a Git repository with the default branch name other than "master"?](https://stackoverflow.com/questions/42871542/how-can-i-create-a-git-repository-with-the-default-branch-name-other-than-maste)
-
-[How to change the URI (URL) for a remote Git repository?](https://stackoverflow.com/questions/2432764/how-to-change-the-uri-url-for-a-remote-git-repository)
-
 # Intro
 
 Version Control are tools to keep track of the history changes done to source code / collections of files or folders (in a series of snapshots + metadata, e.g. author, date and timestamp of a change or messages) > facilitate collaboration and allows the user to: 
@@ -193,6 +187,12 @@ git
 # Misc
 
 - Git does not track empty directories
+
+[How to ignore certain files in Git](https://stackoverflow.com/questions/4308610/how-to-ignore-certain-files-in-git)
+
+[How can I create a Git repository with the default branch name other than "master"?](https://stackoverflow.com/questions/42871542/how-can-i-create-a-git-repository-with-the-default-branch-name-other-than-maste)
+
+[How to change the URI (URL) for a remote Git repository?](https://stackoverflow.com/questions/2432764/how-to-change-the-uri-url-for-a-remote-git-repository)
 
 [git still shows files as modified after adding to .gitignore](https://stackoverflow.com/questions/9750606/git-still-shows-files-as-modified-after-adding-to-gitignore)
 
