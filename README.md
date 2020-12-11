@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Git Basics
 Test repo to relearn and practice the basics of version control with Git
 
