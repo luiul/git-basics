@@ -1,5 +1,5 @@
 # Git Basics
-Test repository to learn and practice the basics of version control with Git.
+Repository to learn and practice the basics of version control with Git. 
 
 # 👣 Basic Commands
 This section covers the basic Git commands necessary to get started. 
