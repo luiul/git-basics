@@ -1,5 +1,7 @@
 # Git Basics
-Test repo to relearn and practice the basics of version control with Git
+Test repository to learn and practice the basics of version control with Git
+
+# 👣 Basic Commands
 
 ## Basics
 * `git help <command>`: get help for a git command
@@ -51,14 +53,8 @@ Test repo to relearn and practice the basics of version control with Git
 * `git bisect`: binary search history (e.g. for regressions)
 * `.gitignore`: specify intentionally untracked files to 
 
->>>>>>> ffb8d848613f76d9683afbb53fd9c81d2d15e6c8
-# Resources
 
-[Version Control (Git)](https://missing.csail.mit.edu/2020/version-control/)
-
-[Lecture 6: Version Control (git) (2020)](https://www.youtube.com/watch?v=2sjqTHE0zok)
-
-# Intro
+# 📖 Version Control (Git) - MIT Course
 
 Version Control are tools to keep track of the history changes done to source code / collections of files or folders (in a series of snapshots + metadata, e.g. author, date and timestamp of a change or messages) > facilitate collaboration and allows the user to: 
 
@@ -69,7 +65,7 @@ Version Control are tools to keep track of the history changes done to source co
 - resoving conflicts
 - sending patches and modules of codes around
 
-# Files and Folders Abstraction Model
+## Files and Folders Abstraction Model
 
 ```
 <root> (tree)
@@ -87,7 +83,7 @@ The root is the directory being tracked, i.e. folder on your computer correspond
 
 Directory: file which consists solely of a set of other files
 
-# Modeling History
+## Modeling History
 
 History can be modeled as a linear sequence of snapshots (i.e. all the files and folders in the project + metadata) > git uses a directed acyclic graph to model history > every new state points to the previous state in the graph
 
@@ -111,7 +107,7 @@ o <-- o <-- o <-- o <-- o (base project + new feature + bug fixes)
 
 (Merge conflicts = concurrent changes in the new state)
 
-# Data Structure / Model of History
+## Data Structure / Model of History
 
 ```
 // a file is a bunch of bytes
@@ -131,7 +127,7 @@ type commit = struct {
 // this are only references. For storage and distribution we use objects
 ```
 
-# Objects and Content-Addressing
+## Objects and Content-Addressing
 
 ```
 type object = blob | tree | commit
@@ -155,7 +151,7 @@ We now can name the objects in the commits graph
 
 Git maintains a set of objects and a set of references > a git repository stores objects and references
 
-# References
+## References
 
 Git maintains a set of objects and a set of references
 
@@ -180,11 +176,13 @@ The graph is immutable, references are mutable
 
 Git commands manipulates the references data or objects data
 
-# Collaboration
+# 📚 Resources
 
-git 
+[Version Control (Git)](https://missing.csail.mit.edu/2020/version-control/)
 
-# Misc
+[Lecture 6: Version Control (git) (2020)](https://www.youtube.com/watch?v=2sjqTHE0zok)
+
+# 💡 Misc
 
 - Git does not track empty directories
 
