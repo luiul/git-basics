@@ -1,0 +1,11 @@
+
+
+# to grab everything 
+# [a-zA-Z.0-9-]+@[a-zA-Z-]+\.(com|edu|net)
+
+CoreyMSchafer@gmail.com
+corey.schafer@university.edu
+corey-321-schafer@my-work.net
+
+# to grab everything (from google)
+# ^([a-zA-Z0-9_\-.]+)@([a-zA-Z0-9_\-.]+)\.([a-zA-Z]{2,5})$

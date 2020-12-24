@@ -1,0 +1,21 @@
+
+
+https://www.google.com
+http://coreyms.com
+https://youtube.com
+https://www.nasa.gov
+
+# to grad everything
+# ^(https?://)(www\.)?(\w+)\.(\w+)$
+
+# call Group n: $n
+Group 1: https://
+Group 2: 
+Group 3: youtube
+Group 4: .gov
+
+# we can clean the urls by replacing with $3$4
+google.com
+coreyms.com
+youtube.com
+nasa.gov
